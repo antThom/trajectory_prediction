@@ -72,7 +72,7 @@ R = 1.0
 
 # Number of generator directions.
 # More generators -> smoother approximation.
-num_generators = 10
+num_generators = 20
 
 angles = np.linspace(
     0.0,
@@ -123,7 +123,7 @@ print("Input generator shape:", U.G.shape)
 # X_{k+1} = A X_k (+) B U
 # ============================================================
 
-reach_steps = 20
+reach_steps = 4
 
 reach_sets = [X0]
 
